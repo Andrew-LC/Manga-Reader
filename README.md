@@ -1,7 +1,6 @@
 # Manga Reader
 
-
-[](./public/app.png)
+![App Photo](./public/app.png)
 
 ### Stack Used:
 - React Native
