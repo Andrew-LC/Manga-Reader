@@ -1,6 +1,6 @@
 # Manga Reader
 
-<img src="url('./public/app.png')" width="400px"/>
+<img src="./public/app.png" width="300px">
 
 ### Stack Used:
 - React Native

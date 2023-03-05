@@ -2,11 +2,9 @@ import React from "react";
 import { StatusBar } from 'expo-status-bar';
 import { NativeBaseProvider, Box, Text, Image, Input, HStack } from "native-base";
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from "./screens/home";
 import Browse from "./screens/browse";
-
 
 function Extensions() {
     return (
@@ -19,7 +17,7 @@ function Extensions() {
 
 const Tab = createBottomTabNavigator();
 
-function CustomHeader({ value }) {
+function CustomHeader({ value }: string) {
     return (
         <HStack>
             <Text fontWeight="600" fontSize="25" color="white">{value}</Text>
